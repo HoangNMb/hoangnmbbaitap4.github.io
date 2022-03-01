@@ -1,0 +1,186 @@
+#main {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.body {
+    width: 100%;
+}
+
+/* header */
+#header {
+    height: 62px;
+    background-color: #fff;
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;;
+}
+
+#nav {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#nav .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {    
+    color: black;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    line-height: 62px;
+    padding: 0px 24px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nav > li > .subnav > li {
+    display: block;
+}
+
+#nav > li:hover > a {
+    color: rgb(228, 128, 15);
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+    background-color: #ccc;
+}
+
+#nav .subnav a {
+    color: black;
+    width: 150px;
+    line-height: 48px;
+}
+
+#nav .subnav li:hover a {
+    color: rgb(228, 128, 15);
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+#nav .nav-arrow-down {
+    font-size: 12px;
+}
+
+#header .logo {
+    float: left;
+    line-height: 62px;
+    padding: 0 16px;
+}
+
+#header .tablet-menu-btn {
+    float: right;
+    display: inline-block;    
+    padding: 20px;
+    /* padding-right: 37px; */    
+    display: none;
+}
+
+
+/* bg-img */
+
+#bg-img {
+    margin-top: 0;
+    padding-top: 50%;
+    background: url('../assets/img/PC_Banner-Homepage_1920x624_1626161630.jpg') top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+#bg-img .text-content{
+    position: absolute;
+    color: #fff;
+    bottom: 50%;
+}
+
+#bg-img .text-heading {
+    
+}
+ 
+#bg-img .text-description {
+}
+
+/* heading */
+
+.heading-container {
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.main-heading {
+    height: 40px;
+    /* margin-bottom: 60px; */
+    border-bottom: 2px solid #cfcfcf;
+}
+
+.main-heading > h2 {
+
+}
+
+/* voucher content */
+
+.voucher-content {
+
+}
+
+.voucher-thread {
+    margin-bottom: 15px;
+}
+
+.voucher-thread  a {
+    color: black;
+    text-decoration: none;
+}
+
+.thread-content > a:hover {
+    cursor: pointer;
+}
+
+/* footer */
+
+#footer {
+    padding: 64px 16px;
+}
+
+#footer .social-list {
+    font-size: 24px;
+    text-align: center;
+}
+
+#footer .social-list > a:hover {
+    opacity: 0.4;
+}
+
+.social-list > a {
+    color: aqua;
+    text-decoration: none;
+}

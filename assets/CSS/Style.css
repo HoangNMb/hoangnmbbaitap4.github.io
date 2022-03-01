@@ -1,0 +1,328 @@
+
+/* reset css */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main */
+
+#main {
+    
+}
+
+/* header */
+#header {
+    height: 62px;
+    background-color: #ccc;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {    
+    color: black;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    line-height: 62px;
+    padding: 0px 24px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nav > li > .subnav > li {
+    display: block;
+}
+
+#nav > li:hover > a {
+    color: rgb(228, 128, 15);
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+    background-color: #ccc;
+}
+
+#nav .subnav a {
+    color: black;
+    width: 150px;
+    line-height: 48px;
+}
+
+#nav .subnav li:hover a {
+    color: rgb(228, 128, 15);
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+#nav .nav-arrow-down {
+    font-size: 12px;
+}
+
+.tablet-menu-btn {
+    display: none;
+    float: right;
+    line-height: 62px;
+    padding: 0px 24px;
+}
+
+#header .logo {
+    float: left;
+    line-height: 62px;
+    padding: 0 16px;
+}
+
+/* bg-img */
+
+#bg-img {
+    margin-top: 62px;
+    padding-top: 50%;
+    background: url('/assets/img/PC_Banner-Homepage_1920x624_1626161630.jpg') top center / cover no-repeat;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#bg-img .text-content{
+    position: absolute;
+    color: #fff;
+    bottom: 50%;
+}
+
+#bg-img .text-heading {
+    
+}
+ 
+#bg-img .text-description {
+    
+}
+
+/* promotion */
+
+#promotion {
+    align-items: center;
+    height: 98px;
+    padding-top: 24px;
+    width: 100%;
+}
+
+#promotion .promotion-container {
+    
+}
+
+.promotion-container .box-item {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row > div > i {
+    font-size: 16px;
+}
+
+.row > .col-3 {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.row > div > i {
+    font-size: 28px;
+    line-height: 48px;
+}
+
+/* voucher */
+#voucher {
+    width: 100%;
+}
+
+#voucher .content-voucher {
+    padding-top: 20px;
+}
+
+#voucher .voucher-heading {
+    line-height: 42px;
+    padding-bottom: 20px;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.voucher-items .voucher-content {
+    position: relative;
+}
+
+.voucher-content > img {
+
+}
+
+.voucher-content > .voucher-description h3 {
+    position: absolute;
+    top:8px;
+    left: 8px;
+    font-size: 20px;
+    font-weight: 550;
+    max-width: 50%;
+    color: #fff;
+}
+
+.voucher-content > .voucher-description:hover {
+    color: rgb(228, 128, 15);
+    text-decoration: underline;
+}
+
+/* intro */
+#intro {
+   padding-bottom: 70px;
+   /* background-color: aquamarine; */
+}
+
+#intro .intro-heading{
+    width: 80%;
+}
+
+#intro .intro-container {
+
+}
+
+ .intro-items .intro-container {
+
+}
+
+.intro-container .intro-items {
+    padding-left: 0px;
+    position: relative;
+}
+
+.intro-items > img {
+    border-radius: 5px;
+}
+   
+.intro-container .intro-discription {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(146, 25, 35, 0.5);
+    padding: 0px 16px 24px;
+}
+
+.intro-discription > h3 {
+    font-size: 20px;
+    font-weight: 530;
+}
+
+.intro-discription .intro-buy-btn {
+    background-color: #f39f2d;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+
+#intro .content-intro {
+    padding: 30px 0px;
+}
+
+/* member */
+#member {
+    
+}
+#member .member-container {   
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;   
+}
+
+.member-container .member-img {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.member-container .member-img > img {
+    height: 292px;
+}
+
+.member-img .member-content {
+    position: absolute;
+    top: 48px;
+    color: #fff;
+}
+
+.member-content .member-heading {
+    padding-bottom: 40px;
+}
+
+.member-content .member-desc {
+    padding-bottom: 40px;
+}
+
+.member-content .member-btn {
+    background-color: #f39f2d;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+#footer {
+    padding: 64px 16px;
+}
+
+#footer .social-list {
+    font-size: 24px;
+    text-align: center;
+}
+
+#footer .social-list > a:hover {
+    opacity: 0.4;
+}
+
+.social-list > a {
+    color: aqua;
+    text-decoration: none;
+}
+
+
+/*  */

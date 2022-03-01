@@ -1,0 +1,243 @@
+/* pc */
+
+@media (min-width: 992px) {
+
+}
+
+/* end pc */
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* heading */
+    #header {
+        background-color: #fff;
+        overflow: hidden;        
+    }
+
+    #header > #nav {
+        display: none;
+        position: relative;
+    }
+
+    #nav > .subnav {
+        position: absolute;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li:hover .subnav {
+        display: none;
+    }
+
+    #header .tablet-menu-btn {
+        float: right;
+        display: inline-block;
+    }
+
+    #header .tablet-menu-btn:hover {
+        background-color: #ccc;
+        cursor: pointer;
+    }
+
+    #promotion {
+        display: none;
+    }
+
+    /* end header */
+
+    /* voucher */
+
+    #voucher {
+        margin-top: 28px;
+        padding-left: 48px;
+    }
+
+    #voucher-container .voucher-heading {
+
+    }
+
+    .voucher-list {
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;        
+        align-items: center;
+    }
+
+    .voucher-list .voucher-items {
+        padding-bottom: 32px;
+    }
+
+    .voucher-items .voucher-content {
+
+    }
+
+    .voucher-content > .voucher-description h3 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .voucher-description h3 {
+        width: 100%;
+    }
+
+    /* end voucher */
+
+    /* introduce */
+
+    #intro {
+        padding-left: 48px;
+    }
+
+    #intro .intro-container {
+        padding-left: 12px;
+    }
+
+    .intro-container .intro-items > img {
+        min-height: 390px;
+    }
+
+    /* end introduce */
+
+    /* member */
+
+    .member-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .member-container .member-img {
+        padding: 0;
+    }
+
+
+    /* end member */
+}
+
+/* end tablet */
+
+/* mobile */
+
+@media (max-width: 767px) {
+    /* header */
+
+    #header {
+        background-color: #fff;
+        overflow: hidden;       
+    }
+
+    #header > #nav {
+        display: none;
+        position: relative;
+    }
+
+    #nav > .subnav {
+        position: absolute;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li:hover .subnav {
+        display: none;
+    }
+
+    #header .tablet-menu-btn {
+        float: right;
+        display: inline-block;
+    }
+
+    #header .tablet-menu-btn:hover {
+        background-color: #ccc;
+        cursor: pointer;
+    }
+
+    .logo {
+
+    }
+
+    /* promotion */
+
+    #promotion {
+        display: none;
+    }
+
+
+
+    /* end promotion */
+
+    /* end header */
+
+    #bg-img {
+
+    }
+
+    #bg-img > .text-content {
+        display: none;
+    }
+
+    /* voucher */
+
+    #voucher {
+        margin-top: 32px;
+        padding-left: 16px;
+    }
+
+    .voucher-container .voucher-heading {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    #voucher .voucher-list {
+        padding: 0;
+    }
+
+    .voucher-list .voucher-items {
+        padding: 0;
+        margin-left: 15px;
+        padding-bottom: 16px;
+    }
+
+    .voucher-content > .voucher-description h3 {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+
+    /* end voucher */
+
+    /* intro */
+
+    #intro {
+        padding-left: 16px;
+    }
+
+    .content-intro .intro-heading {
+        text-transform: uppercase;
+    }
+
+    .intro-container .intro-items {
+        padding-left: 24px;
+        padding-bottom: 16px;
+    }
+
+    .intro-items .intro-discription {
+        bottom: 16px;
+        max-width: 100%;
+        padding-left: 0px;
+    }
+
+    /* end intro */
+
+    /* member */
+
+    .member-content {
+        padding-left: 20px;
+    }
+
+    /* end member */
+
+}

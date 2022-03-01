@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.main {
+    display: flex;
+}
+
+.login-container {
+}
+
+.bg-img {
+    
+}
+
+.login-form {
+
+}
+
+.login-form .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 150px;
+}
+
+.text-content {
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.login-form-input {
+    padding-bottom: 8px;
+}
+
+.login-form-input .login-input {
+    display: block;
+}
+
+.login-form-input label {
+    padding: 8px 0px;
+}
+
+.login-form-input input {
+    width: 100%;
+}
+
+.checkbox {
+    padding-bottom: 8px;
+}
+
+.checkbox .forgotten-pas {
+    text-align: right;
+    padding: 0px;
+}
+
+.btn-login {
+    background-color: #f39f2d;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-login-block {
+    padding-left: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.register {
+    text-align: center;
+}
+
